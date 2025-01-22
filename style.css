@@ -1,0 +1,88 @@
+/* General body styling */
+*{
+    transition: all 0.5s ease;
+}
+#background-music {
+    display: none;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./bg.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 0.5s ease;
+}
+
+/* Main game container */
+.game-container {
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    border: solid 1px green;
+    box-shadow: 0px 4px 90px rgba(0, 0, 0, 0.466);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+/* Header section */
+.header h1 {
+    color: rgb(0, 253, 0);
+    margin: 0;
+    font-size: 24px;
+}
+
+.stats p {
+    color: #29f700;
+    margin: 5px 0;
+}
+
+/* Monster stats display */
+.monster-stats {
+    display: none;
+    background-color: #e7e7e72a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Game text styling */
+.game-text {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Button styling */
+.buttons button {
+    background-color: #ffffff07;
+    border: solid 1px #ffffff07;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    border: solid 1px #29f70056;
+}
+
+.buttons button:disabled {
+    background-color: #dcdcdc;
+    cursor: not-allowed;
+}
+
+
